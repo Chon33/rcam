@@ -1,0 +1,103 @@
+@font-face {
+    font-family: junegull;
+    src: url(assets/junegull.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+section {
+    height: 100vh;
+}
+
+#main {
+    background: rgb(194, 243, 149);
+}
+
+nav {
+    padding: 2rem;
+}
+
+nav ul {
+    background: #fff;
+    border-radius: 2rem;
+
+    width: calc(100% - 6rem);
+    list-style-type: none;
+
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 4rem;
+    padding: 1rem;
+}
+
+nav ul li {
+    display: flexbox;
+    align-self: center;
+}
+
+nav ul li a {
+    font-family: junegull;
+    display: inline-block;
+    font-weight: bolder;
+    color: black;
+    height: 100%;
+    font-size: 2rem;
+}
+
+
+#donate {
+    background-color: crimson;
+}
+
+#learn {
+    background-color: deepskyblue;
+}
+
+#store {
+    background-color: rgb(240, 112, 176);
+}
+
+#about {
+    background-color: blueviolet;
+}
+
+
+footer {
+    background: #222;
+    color: white;
+    height: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+footer h1{
+    font-family: 'arial';
+    font-style: bold;
+    font-size: 2.5rem;
+}
