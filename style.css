@@ -1,6 +1,6 @@
 @font-face {
     font-family: junegull;
-    src: url(../assets/junegull.ttf);
+    src: url(assets/junegull.ttf);
 }
 
 * {
@@ -68,7 +68,7 @@ section {
 }
 
 #mainimg {
-    background-image: url(/assets/bg.jpg);
+    background-image: url(assets/bg.jpg);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
